@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        <link rel="stylesheet" href="./bostrap/css/bootstrap.min.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-family: poppins;
+            }
+            .h{
+    width: 400px;
+    margin-left: 100px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.navbar-brand{
+    margin-left: 100px;
+}
+.mar{
+    color: darkmagenta;
+    
+}
+.ball{
+    background-color: white;
+}
+.bhu{
+    margin-top: 30px;
+    
+}
+.nav-item{
+
+    margin-left: 50px;
+}
+.nh{
+    margin-left: 150px;
+}
+.nh a:hover{
+    color: red;
+    border-bottom: 3px solid red;
+}
+.nj{
+          width: 10px;
+        }
+            
+
+
+            /* section 2 */
+            #about-section {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 80px 12%;
+            }
+            .about-left img{
+                width: 420px;
+                height: auto;
+                transform: translateY(50px);
+            }
+            .about-right {
+                width: 54%;
+            }
+
+            .about-right ul li {
+                display: flex;
+                align-items: center;
+            }
+
+            .about-right h1 {
+                color: #e74d06;
+                font-size: 37px;
+                margin-bottom: 5px;
+            }
+
+            .about-right p {
+                color: #444;
+                line-height: 26px;
+                font-size: 15px;
+            }
+
+            .about-right .address {
+                margin: 25px 0;
+            }
+
+            .about-right .address ul li {
+                margin-bottom: 5px;
+            }
+
+            .address .address-logo {
+                margin-right: 15px;
+                color: #e74d06;
+            }
+
+            .address .saprater {
+                margin: 0 35px;
+            }
+
+            .about-right .expertise ul {
+                width: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .expertise h3 {
+                margin-bottom: 10px;
+            }
+
+            .expertise .expertise-logo {
+                font-size: 19px;
+                margin-right: 10px;
+                color: #e74d06;
+            }
+            .c {
+          margin-left: 250px;
+          font-size: 20px;
+    
+        }
+        /* footer */
+
+        .container2{
+	max-width: 1170px;
+	margin:auto;
+	display: flex;
+	align-items: center;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+	
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+/*responsive*/
+ @media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+.none{
+    display: none;
+}
+
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+    width: 85vw;
+    margin: 0 auto;
+}
+.image{
+    background: url("./17004694055.jpg") center/cover no-repeat;
+}
+.content{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.content h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+.content span{
+    height: 0.5px;
+    width: 80px;
+    background: #777;
+    margin: 30px 0;
+}
+.content p{
+    padding-bottom: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+.links{
+    margin: 15px 0;
+}
+.links li{
+    border: 0.5px solid #777;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+}
+.links li a{
+    text-transform: uppercase;
+    color: #777;
+    text-decoration: none;
+}
+.links li:hover{
+    border-color: #06d6a0;
+}
+.links li:hover a{
+    color :#06d6a0;
+}
+.vertical-line{
+    height: 30px;
+    width: 0.5px;
+    background: #777;
+    margin: 0 auto;
+}
+.icons{
+    display: flex;
+    padding: 15px 0;
+}
+.icons li{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+.icons li i{
+    font-size: 26px;
+    opacity: 0.8;
+}
+.icons li i:hover{
+    color: #06d6a0;
+}
+
+
+/*****************/
+
+@media(max-width: 992px){
+    section{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .image{
+        height: 100vh;
+    }
+    .content{
+        height: 100vh;
+    }
+    .content h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .content span{
+        margin: 20px 0;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .links li a{
+        font-size: 14px;
+    }
+    .links{
+        margin: 5px 0;
+    }
+    .links li{
+        padding: 6px 10px;
+    }
+    .icons li i{
+        font-size: 15px;
+    }
+}
+.center{
+    height: 200px;
+}
+        </style>
+
+
+
+            </head>
+
+    <body>
+        <marquee class="mar" behavior="" direction="left"> free shopping karo sab log ok main faisal ka abu</marquee>
+        <nav class="navbar navbar-expand-lg  bg-body-white ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./logo - Copy.png" height="70px"></a>
+              <button class="navbar-toggler none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor04" aria-controls="navbarColor04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor04">
+                <form class="d-flex">
+                  <input class="form-control me-sm-2 h" type="search" placeholder="Search" >
+                  <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 c">
+    
+                  <li class="nav-item ">
+                    <a class="nav-link guio" href="#"> <i class="fa-solid fa-user"></i></a>
+                  </li>
+                
+                    <li class="nav-item guio nj">
+                    <a class="nav-link" href="#"> <i class="fa-solid fa-bag-shopping"></i></a>
+                  </li>
+    
+                  
+                  <li class="nav-item guio nj">
+                    <a class="nav-link" href="#"> cart</a>
+                  </li>
+                  </ul>
+                 
+               
+    
+              </div>
+            </div>
+          </nav>
+        
+        <div class="muzzo">
+          <nav class="navbar navbar-expand-lg navbar-light bg-white bhu">
+            <div class="container-fluid">
+              <a class="navbar-brand">  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nh">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html"> HOME </a>
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html"> ABOUT</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      OCASSION
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" >Kids</a></li>
+                      <li><a class="dropdown-item" >Womens Sale </a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" >Something else here</a></li>
+                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href=""> PRODUCT </a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html"> CONTACT</a>
+                  </li>
+             
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> EVENT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> </a>
+                  </li>
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="center">
+
+        </div>
+
+        <section>
+            <div class = "image">
+               
+            </div>
+
+            <div class = "content">
+                <h2>About Us</h2>
+                <span><!-- line here --></span>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aspernatur voluptas inventore ab voluptates nostrum minus illo laborum harum laudantium earum ut, temporibus fugiat sequi explicabo facilis unde quos corporis!</p>
+
+                <ul class = "links">
+                    <li><a href = "#">work</a></li>
+
+                    <div class = "vertical-line"></div>
+
+                    <li><a href = "#">service</a></li>
+
+                    <div class = "vertical-line"></div>
+                    
+                    <li><a href = "#">contact</a></li>
+                </ul>
+
+                <ul class = "icons">
+                    <li>
+                        <i class = "fa fa-twitter"></i>
+                    </li>
+                    <li>
+                        <i class = "fa fa-facebook"></i>
+                    </li>
+                    <li>
+                        <i class = "fa fa-github"></i>
+                    </li>
+                    <li>
+                        <i class = "fa fa-pinterest"></i>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="center">
+
+        </div>
+        <footer class="footer" >
+            <div class="container">
+              <div class="row">
+                <div class="footer-col ">
+                  <h4>company</h4>
+                  <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col ">
+                  <h4>get help</h4>
+                  <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col ">
+                  <h4>online shop</h4>
+                  <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col ">
+                  <h4>follow us</h4>
+                  <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+       
+
+
+        
+
+
+        <script src="./bostrap/js/bootstrap.bundle.js"></script>
+    </body>
+
+</html>
